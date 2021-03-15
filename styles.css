@@ -10,6 +10,8 @@
     background: #F6F6F9;
     margin: auto;
     flex-wrap: wrap;
+    overflow: hidden;
+    position: relative;
 }
 .header-top{
     display: flex;
@@ -78,6 +80,15 @@
 .ru{
     border-radius: 20px;
     margin-right: 5px;
+}
+#s{
+    position: absolute;
+    left: 60%;
+    padding: 8px;
+    border: none;
+    border-radius:5px;
+    transform: translateX(800px);
+    transition: 1s;
 }
 .subscribtion{
     display: flex;
