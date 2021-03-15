@@ -9,13 +9,15 @@
     padding: 40px 120px;
     background: #F6F6F9;
     margin: auto;
-    border-top: 4px solid #285193;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: relative;
 }
 .header-top{
     display: flex;
+    max-width: 1150px;
+    margin: auto;
     margin-bottom: 40px;
-    justify-content: space-between;
-    width: 1150px;
 }
 .logo{
     background:white;
@@ -29,7 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -280px;
+    
 }
 .val-list{
     display: flex;
@@ -54,7 +56,7 @@
     font-weight: bold;
 }
 .btns{
-    
+    margin-left: 300px;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -117,6 +119,7 @@
     border-radius: 2px;
     display: flex;
     align-items:center;
+    margin: auto;
     margin-bottom: 18px;
 }
 .nav-list{
@@ -141,4 +144,8 @@
 }
 .a{
     text-decoration: none;
+}
+aside{
+    width: 1150px;
+    margin: auto;
 }
