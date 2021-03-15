@@ -9,15 +9,13 @@
     padding: 40px 120px;
     background: #F6F6F9;
     margin: auto;
-    flex-wrap: wrap;
-    overflow: hidden;
-    position: relative;
     border-top: 4px solid #285193;
 }
 .header-top{
     display: flex;
     margin-bottom: 40px;
     justify-content: space-between;
+    width: 1150px;
 }
 .logo{
     background:white;
