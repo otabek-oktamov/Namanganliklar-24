@@ -55,6 +55,9 @@
     color: #285193;
     font-weight: bold;
 }
+.logo-namanganliklar{
+    border-radius:5px;
+}
 .btns{
     margin-left: 300px;
     display: flex;
