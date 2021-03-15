@@ -12,10 +12,12 @@
     flex-wrap: wrap;
     overflow: hidden;
     position: relative;
+    border-top: 4px solid #285193;
 }
 .header-top{
     display: flex;
     margin-bottom: 40px;
+    justify-content: space-between;
 }
 .logo{
     background:white;
@@ -29,6 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: -280px;
 }
 .val-list{
     display: flex;
@@ -53,7 +56,7 @@
     font-weight: bold;
 }
 .btns{
-    margin-left:300px;
+    
     display: flex;
     justify-content: center;
     align-items:center;
