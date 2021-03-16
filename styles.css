@@ -115,6 +115,7 @@ b{
 .content{
    width: 1200px;
    margin: auto;
+   margin-bottom: 38px;
 }
 .statistic{
     background:#F6F6F9;
@@ -193,6 +194,9 @@ b{
 .row:first-child{
     margin-bottom: 18px;
 }
+.row:last-child{
+    margin-bottom: 34px;
+}
 .news-text{
     font-family: 'Rubik';
     font-size: 17px;
@@ -210,4 +214,200 @@ b{
     font-weight: 400;
     line-height: 17px;
     color:#6B6D97;
+    display: flex;
+    align-items:center;
+}
+.obuna{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background:rgba(239, 186, 84,0.18);
+    border-radius:10px;
+    width: 1200px;
+    padding: 28px 34px;
+    margin-bottom: 38px;
+}
+.obuna-first{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.obuna-text{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000;
+    margin-left: 17px;
+}
+.btn-obuna{
+    padding: 8px 15px;
+    border-radius:5px;
+    background:linear-gradient(90deg,#fe5c28 0%, rgba(255,139,59,0.9)88.43%);
+    color: white;
+    font-weight: 500;
+    font-size: 20;
+    line-height: 24px;
+}
+.yangiliklar{
+    width: 1200px;
+    display: flex;
+    margin-bottom: 38px;
+}
+.yangiliklar-title{
+   font-weight: 500;
+   color: #000;
+   margin-bottom: 13px;
+}
+.yangiliklar-1{
+    max-width: 800px;
+}
+
+.yangiliklar-2{
+    max-width: 400px;
+    margin-left: 50px;
+}
+.rows{
+    padding: 16px 20px;
+    box-sizing: border-box;
+    background:#F6F6F9;
+    border-radius:5px;
+    margin-bottom: 20px;
+}
+.col-md-12{
+    display: flex;
+    max-width: 800px;
+    margin-bottom: 18px;
+}
+.texts{
+    margin-left: 20px;
+}
+.yangi-text-title{
+    font-size: 17px;
+    font-weight: 500;
+    color: #000;
+    line-height: 21px;
+    margin-bottom: 8px;
+}
+.basic-text{
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 11px;
+}
+.col-text{
+    color: #202020;
+    font-size: 17px;
+    line-height: 21px;
+    margin-bottom: 11px;
+}
+.col-md-6{
+    padding-right: 50px;
+    padding-bottom: 12px;
+}
+hr{
+    width: 100%;
+    background: #E4E4E4;
+    height: 3px;
+    border: none;
+    margin-bottom: 18px;
+}
+.big{
+    text-align: center;
+    padding: 10px 30px;
+    color:white;
+    background: #295093;
+    border-radius:5px;
+    margin-left: 300px;
+}
+.reklama{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background:#F6F6F9;
+    height:214px;
+    border-radius:5px;
+}
+.content-title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #295093;
+    margin-bottom: 10px;
+}
+.footer{
+    max-width: 1440px;
+    height:200px;
+    background:#295093;
+    padding: 30px 70px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #133C82;
+    padding-bottom: 17px;
+    margin-bottom: 12px;
+}
+.logo-nam{
+    color:white;
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    letter-spacing: 1px;
+    padding: 8px;
+    background:#133C82;
+    border-radius: 5px;
+}
+.about-chanel{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.chanel-text{
+    color:white;
+    font-weight: 500;
+    font-size: 14;
+}
+.about-btn{
+    border: none;
+    background:white;
+    padding: 10px 11px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-weight: 500;
+    margin-left: 17px;
+    color: #295093;
+}
+.tel{
+    margin-right: 5px;
+}
+.left-title{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: white;
+}
+.left-text{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-bottom{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.bottom-left{
+    width: 500px;
+    padding-right: 100px;
+}
+.footer-li{
+    list-style: none;
+    color: white;
+    margin-top: 18px;
 }
